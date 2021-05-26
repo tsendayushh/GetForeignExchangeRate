@@ -74,7 +74,7 @@ namespace GetForeignExchangeRate
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = new System.Drawing.Rectangle(716, 193, 650, 400);
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(548, 151);
+            this.layoutControl1.Size = new System.Drawing.Size(548, 147);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -87,11 +87,11 @@ namespace GetForeignExchangeRate
             this.quoteCurrency,
             this.layoutControlItem4,
             this.emptySpaceItem1,
+            this.layoutControlItem1,
             this.layoutControlItem6,
-            this.layoutControlItem5,
-            this.layoutControlItem1});
+            this.layoutControlItem5});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(548, 151);
+            this.Root.Size = new System.Drawing.Size(548, 147);
             this.Root.TextVisible = false;
             // 
             // cboBaseCurrencyType
@@ -139,7 +139,7 @@ namespace GetForeignExchangeRate
             "XAU",
             "XAG",
             "SDR"});
-            this.cboBaseCurrencyType.Size = new System.Drawing.Size(135, 20);
+            this.cboBaseCurrencyType.Size = new System.Drawing.Size(123, 20);
             this.cboBaseCurrencyType.StyleController = this.layoutControl1;
             this.cboBaseCurrencyType.TabIndex = 4;
             // 
@@ -148,13 +148,13 @@ namespace GetForeignExchangeRate
             this.baseCurrency.Control = this.cboBaseCurrencyType;
             this.baseCurrency.Location = new System.Drawing.Point(0, 0);
             this.baseCurrency.Name = "baseCurrency";
-            this.baseCurrency.Size = new System.Drawing.Size(263, 24);
+            this.baseCurrency.Size = new System.Drawing.Size(251, 24);
             this.baseCurrency.Text = "Base Currency";
             this.baseCurrency.TextSize = new System.Drawing.Size(112, 14);
             // 
             // cboQuoteCurrency
             // 
-            this.cboQuoteCurrency.Location = new System.Drawing.Point(399, 12);
+            this.cboQuoteCurrency.Location = new System.Drawing.Point(387, 12);
             this.cboQuoteCurrency.Name = "cboQuoteCurrency";
             this.cboQuoteCurrency.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -197,16 +197,16 @@ namespace GetForeignExchangeRate
             "XAU",
             "XAG",
             "SDR"});
-            this.cboQuoteCurrency.Size = new System.Drawing.Size(137, 20);
+            this.cboQuoteCurrency.Size = new System.Drawing.Size(149, 20);
             this.cboQuoteCurrency.StyleController = this.layoutControl1;
             this.cboQuoteCurrency.TabIndex = 5;
             // 
             // quoteCurrency
             // 
             this.quoteCurrency.Control = this.cboQuoteCurrency;
-            this.quoteCurrency.Location = new System.Drawing.Point(263, 0);
+            this.quoteCurrency.Location = new System.Drawing.Point(251, 0);
             this.quoteCurrency.Name = "quoteCurrency";
-            this.quoteCurrency.Size = new System.Drawing.Size(265, 24);
+            this.quoteCurrency.Size = new System.Drawing.Size(277, 24);
             this.quoteCurrency.Text = "Quote Currency";
             this.quoteCurrency.TextSize = new System.Drawing.Size(112, 14);
             // 
@@ -231,35 +231,35 @@ namespace GetForeignExchangeRate
             // 
             // textEditBaseCRate
             // 
-            this.textEditBaseCRate.Location = new System.Drawing.Point(136, 95);
+            this.textEditBaseCRate.Location = new System.Drawing.Point(136, 91);
             this.textEditBaseCRate.Name = "textEditBaseCRate";
-            this.textEditBaseCRate.Size = new System.Drawing.Size(135, 20);
+            this.textEditBaseCRate.Size = new System.Drawing.Size(136, 20);
             this.textEditBaseCRate.StyleController = this.layoutControl1;
             this.textEditBaseCRate.TabIndex = 9;
             // 
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.textEditBaseCRate;
-            this.layoutControlItem6.Location = new System.Drawing.Point(0, 83);
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 79);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(263, 24);
+            this.layoutControlItem6.Size = new System.Drawing.Size(264, 24);
             this.layoutControlItem6.Text = "Base currency rate";
             this.layoutControlItem6.TextSize = new System.Drawing.Size(112, 14);
             // 
             // textEditQuoteCRate
             // 
-            this.textEditQuoteCRate.Location = new System.Drawing.Point(399, 95);
+            this.textEditQuoteCRate.Location = new System.Drawing.Point(400, 91);
             this.textEditQuoteCRate.Name = "textEditQuoteCRate";
-            this.textEditQuoteCRate.Size = new System.Drawing.Size(137, 20);
+            this.textEditQuoteCRate.Size = new System.Drawing.Size(136, 20);
             this.textEditQuoteCRate.StyleController = this.layoutControl1;
             this.textEditQuoteCRate.TabIndex = 10;
             // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.textEditQuoteCRate;
-            this.layoutControlItem5.Location = new System.Drawing.Point(263, 83);
+            this.layoutControlItem5.Location = new System.Drawing.Point(264, 79);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(265, 24);
+            this.layoutControlItem5.Size = new System.Drawing.Size(264, 24);
             this.layoutControlItem5.Text = "Quote currency rate";
             this.layoutControlItem5.TextSize = new System.Drawing.Size(112, 14);
             // 
@@ -268,12 +268,12 @@ namespace GetForeignExchangeRate
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 50);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(528, 33);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(528, 29);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // textEditHaritsaa
             // 
-            this.textEditHaritsaa.Location = new System.Drawing.Point(136, 119);
+            this.textEditHaritsaa.Location = new System.Drawing.Point(136, 115);
             this.textEditHaritsaa.Name = "textEditHaritsaa";
             this.textEditHaritsaa.Size = new System.Drawing.Size(400, 20);
             this.textEditHaritsaa.StyleController = this.layoutControl1;
@@ -284,7 +284,7 @@ namespace GetForeignExchangeRate
             this.layoutControlItem1.Control = this.textEditHaritsaa;
             this.layoutControlItem1.ControlAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.layoutControlItem1.CustomizationFormText = "haritsaa";
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 107);
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 103);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(528, 24);
             this.layoutControlItem1.Text = "Харьцаа";
@@ -294,7 +294,7 @@ namespace GetForeignExchangeRate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 151);
+            this.ClientSize = new System.Drawing.Size(548, 147);
             this.Controls.Add(this.layoutControl1);
             this.Name = "ForeignExchangeRating";
             this.Text = "Вальтын ханш(Монгол Банк)";
