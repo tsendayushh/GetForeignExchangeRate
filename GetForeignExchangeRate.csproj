@@ -72,7 +72,6 @@
     <Compile Include="ForeignExchangeRating.Designer.cs">
       <DependentUpon>ForeignExchangeRating.cs</DependentUpon>
     </Compile>
-    <Compile Include="GetClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ForeignExchangeRating.resx">
